@@ -1,7 +1,5 @@
-//Elianys Ventura Rodriguez
-////Panther ID: 5652936
+//Elianys Ventura
 //This is a program that makes a grade claculation.
-////“I affirm that I wrote this program myself without any help form any other people or sources from the internet.”.
 #include <stdio.h>
 int main(void)
 {
