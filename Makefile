@@ -1,10 +1,4 @@
-all:	tenthreads
-
-tenthreads:	tenthreads.o
-	gcc tenthreads.c -o tenthreads -lpthread
-
-tenthreads.o:	tenthreads.c
-	gcc -c tenthreads.c -o tenthreads.o
-
+bitops: bitops.c
+	gcc -o bitops bitops.c -I.
 clean:
-	rm -f tenthreads tenthreads.o core*~
+	rm *.o *.err

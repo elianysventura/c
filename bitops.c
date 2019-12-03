@@ -1,4 +1,7 @@
+//Elianys Ventura Rodriguez
+//Panther ID: 5652936
 //This is a program that either sets or clears a single bit of a number entered by the user
+//“I affirm that I wrote this program myself without any help form any other people or sources from the internet.”
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
