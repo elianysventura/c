@@ -1,8 +1,4 @@
-all: minicalc
-
-minicalc: minicalc.o
-	gcc minicalc.o -o minicalc
-minicalc.o:minicalc.c
-	gcc -c minicalc.c -o minicalc.o
+minishell: minishell.c
+	gcc -o minishell minishell.c -I.
 clean:
-	 rm -f minicalc minicalc.o core*~
+	rm -f minishell *.o *.err core *~
