@@ -1,5 +1,10 @@
-countprimes:	countprimes.c
-		/usr/lib64/openmpi/bin/mpicc -O -o countprimes countprimes.c
+all:	tenthreads
+
+tenthreads:	tenthreads.o
+	gcc tenthreads.c -o tenthreads -lpthread
+
+tenthreads.o:	tenthreads.c
+	gcc -c tenthreads.c -o tenthreads.o
 
 clean:
-		rm -f countprimes core *~
+	rm -f tenthreads tenthreads.o core*~
