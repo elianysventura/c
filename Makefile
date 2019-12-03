@@ -1,4 +1,4 @@
-bitops: bitops.c
-	gcc -o bitops bitops.c -I.
+bmptool: bmptool.c
+	gcc -o bmptool bmptool.c -I.
 clean:
-	rm *.o *.err
+	rm -f bmptool *.o *.err *~
