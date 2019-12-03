@@ -1,4 +1,5 @@
-bmptool: bmptool.c
-	gcc -o bmptool bmptool.c -I.
+countprimes:	countprimes.c
+		/usr/lib64/openmpi/bin/mpicc -O -o countprimes countprimes.c
+
 clean:
-	rm -f bmptool *.o *.err *~
+		rm -f countprimes core *~
