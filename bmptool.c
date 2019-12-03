@@ -1,7 +1,6 @@
-//Elianys Ventura Rodriguez
-//////Panther ID: 5652936
+
 //////This is a program that manipulates an imgae from a 24 bit bmp file
-//////“I affirm that I wrote this program myself without any help form any other people or sources from the internet.”.
+
 
 #include <stdlib.h>
 #include "bmplib.h"
